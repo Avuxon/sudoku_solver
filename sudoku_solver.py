@@ -80,9 +80,3 @@ def is_valid(board, num, pos):
     
     return True
 
-board1 = create_board()
-print_board(board1)
-print(" ---------------------------------------------------------- ")
-solve_board(board1)
-print_board(board1)
-
