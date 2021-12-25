@@ -5,7 +5,7 @@ from PIL import ImageTk, Image
 
 root = Tk()
 root.title("Sudoku Solver")
-#root.iconbitmap("./metadata/sudoku_icon.ico")
+root.iconbitmap("./metadata/sodoku_icon.ico")
 
 main_img = ImageTk.PhotoImage(Image.open("./metadata/sodoku_solver_image.png"))
 main_label = Label(image=main_img)
